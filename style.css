@@ -1,0 +1,19 @@
+#limited-time-offer-banner {
+    background-color: #ffb4b4;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.banner-content {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#countdown {
+    font-size: 18px;
+    font-weight: bold;
+}
